@@ -1,0 +1,11 @@
+create database stock;
+
+use stock;
+create table products (id int primary key auto_increment, title varchar(100), price decimal(5, 2) );
+
+
+insert into products (title, price) values ("Intel 545s 128GB Internal SSD", 29.99);
+insert into products (title, price) values ("CyberPower RT650 UPS", 69.95);
+insert into products (title, price) values ("BlueParrot Reveal Pro Bluetooth Headset", 19.99);
+insert into products (title, price) values ("Dell OptiPlex 7010 Core i7 8GB PC (Refurb)", 269.99);
+insert into products (title, price) values ("HP EliteBook G3 Core i7 8GB Touch Laptop (Refurb)", 549.99);
